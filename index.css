@@ -1,0 +1,73 @@
+.title{
+    /*字形*/
+    font-size: 30px;
+    font-weight: 1000;
+    font-family: "宋体";
+    /*颜色*/
+    color: red;
+    /*后写的样式会覆盖前面的样式*/
+    color: rgb(25,255,255);
+    /*对齐方式*/
+    /*显然文本对齐方式只对块元素内的文本有效，对行内元素无效*/
+    text-align: center;
+    /*而行高对文字有效*/
+    line-height: 50px;
+    /*文字间距对文字有效*/
+    letter-spacing: 1px
+    
+}
+
+
+.photo_class{
+    /*图片属于块元素*/
+    /*修改图片高和宽*/
+    height: 80px;
+    width: 80px;
+    /*设置内边距和背景颜色，对子元素来设置样式*/
+    padding: 5px;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    /*设置边框样式*/
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.text{
+    /*字形*/
+    font-size: 10px;
+    font-weight: 1000;
+    font-family: "宋体";
+    color: rgb(25,255,255);
+    /*对齐方式*/
+    /*显然文本对齐方式只对块元素内的文本有效，对行内元素无效*/
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+    height: 50px;
+    width: 150px;
+    border-radius: 12px;
+}
+
+.content{
+    /*字形*/
+    font-size: 10px;
+    font-weight: 1000;
+    font-family: "宋体";
+    color: rgb(25,255,255);
+    /*对齐方式*/
+    /*显然文本对齐方式只对块元素内的文本有效，对行内元素无效*/
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 1px;
+    padding: 10px;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    /*设置边框样式*/
+    border-radius: 12px;
+    border-width: 10px;
+    border-color: black;
+    border-style: solid;
+}
