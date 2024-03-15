@@ -1,0 +1,158 @@
+ul,li{
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul{
+    position: flex;
+    justify-content: center;
+    height: 60px;
+    width: 1000px;
+}
+
+.menu li{
+    display: inline-block;
+}
+
+.menu li a{
+    display: block;
+    height: 60px;
+    width: 200px;
+    background-color: #ffe9ff;
+    line-height: 60px;
+    text-align: center;
+    background: url(3.png);
+}
+
+.menu a:hover{
+    background: url(test.jpg);
+    font-weight: 900;
+}
+
+.content{
+    width: 1000px;
+    height: 1000px;
+    border: 1px lightgray solid;
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+
+}
+
+.content div{
+    width: 300px;
+    height: 300px;
+    border: 1px lightblue solid;
+    box-sizing: inherit;
+}
+
+.content .left{
+    position: sticky; top: 50px;
+    height: 900px;
+}
+
+.content .right{
+    position: sticky; top: 150px;left: 10px;
+    height: 200px;
+}
+
+.content .right a{
+    display: block;
+    width: 300px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: #ff666f;
+}
+
+.content a:hover{
+    background-color: beige;
+    border: #000 solid;
+    font-weight: 900;
+    font-family: 黑体;
+}
+
+
+.content .left{
+    width: 150px;
+    height: 0;
+}
+
+.content .left li{
+    border: #fff0f0 solid 1px;
+}
+
+.left li a{
+    display: block;
+    height: 50px;
+    width: 150px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.search{
+    position: relative;
+    width: 600px;
+}
+
+.search input{
+    border: #f66660 solid;
+    height: 45px;
+    width: 600px;
+    border-radius: 60px;
+    font-weight: 600;
+    font-size: large;
+    padding-left: 40px;
+}
+
+.search button{
+    width: 30px;
+    height: 30px;
+    background: url(./search.png) no-repeat;
+    border: 0px;
+    position: absolute;top: 10px;left: 10px;
+}
+
+button:hover{
+    background:url(3.png);
+}
+
+.voice{
+    width: 30px;
+    height: 30px;
+    position: absolute; top: 10px;right: 5px;
+    background: url(./image.png) no-repeat;
+}
+
+.voice a{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+
+.message{
+    width: 1000px;
+    border: lightcoral solid 2px;
+    position: relative;
+}
+
+.message>div{
+    width:600px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: #000 solid;
+}
+
+.message li a{
+    display: block;
+    height: 25px;
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+

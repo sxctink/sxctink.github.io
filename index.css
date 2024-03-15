@@ -1,22 +1,31 @@
 .title{
     /*字形*/
-    font-size: 30px;
-    font-weight: 1000;
+    font-size: 25px;
     font-family: "宋体";
+    font-weight: 900;
+    font-family: 黑体;
     /*颜色*/
     color: red;
     /*后写的样式会覆盖前面的样式*/
-    color: rgb(25,255,255);
+    color: black;
     /*对齐方式*/
     /*显然文本对齐方式只对块元素内的文本有效，对行内元素无效*/
     text-align: center;
     /*而行高对文字有效*/
     line-height: 50px;
     /*文字间距对文字有效*/
-    letter-spacing: 1px
+    letter-spacing: 1px;
+    margin-left: 10px;
     
 }
 
+.and{
+    margin: 10px;
+}
+
+.no2{
+    margin: 10px;
+}
 
 .photo_class{
     /*图片属于块元素*/
@@ -70,4 +79,47 @@
     border-width: 10px;
     border-color: black;
     border-style: solid;
+}
+
+.block_test{
+    display: block;
+    width: 200px;
+    height: 150px;
+    background-color: pink;
+}
+
+.post_test{
+    /*position: absolute;相对于整个页面的绝对定位
+    position:relative;相对于原本位置的定位
+    position:sticky;粘连到页面上
+    top: 40px;
+    left: 40px;*/
+    position:sticky;
+    top: 400px;
+}
+
+.xuanfu{
+    /*图片实现右对齐 float脱离文档流`*/
+    display: inline;
+    float:right;
+}
+
+.from{
+    width: 500px;
+}
+input,textarea{
+    display: block;
+    background-color: lightsteelblue;
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 20px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+    
+}
+
+.only_read{
 }

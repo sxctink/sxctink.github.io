@@ -1,0 +1,102 @@
+ul,li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.menu{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border: 0.5px solid lightgray;
+    background-color: lightblue;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.menu a{
+    margin-left: 2px;
+    width: 19%;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 50px;
+    height: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    color: #555;
+}
+
+.menu li{
+    display: inline;
+}
+
+.left_sidebar li{
+    
+}
+
+.left_sidebar a{
+    box-sizing: inherit;
+    height: 50px;
+    background-color: antiquewhite;
+    text-align: center;
+    display: block;
+    line-height: 50px;
+    border: lightgray 1px solid;
+}
+
+li a:hover{
+    font-weight: 800;
+    font-family: 黑体;
+    background-color: #555;
+    color: white;
+}
+
+
+.content{
+    width: 1000px;
+    height: 2000px;
+    border: 2px solid lightblue;
+    box-sizing: border-box;
+    padding: 20px;
+    position: relative;
+}
+
+.content .article{
+    display: inline-block;
+    margin: 10px;
+    width: 400px;
+    height: 1950px;
+    border: 1px solid lightgray;
+    box-sizing: inherit;
+    padding: 10px;
+    background-color: #ECF4EE;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+    margin: auto;
+}
+
+.cut{
+    box-sizing: inherit;
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+.left_sidebar{
+    display: inline-block;
+    width: 150px;
+    height: 1000px;
+    position: sticky;top: 5px;
+}
+
+.right_sidebar{
+    display: inline-block;
+    border: #555 solid ;
+    width: 200px;
+    height: 200px; 
+    position: sticky;left: 800px;
+}
